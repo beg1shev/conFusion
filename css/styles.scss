@@ -68,9 +68,38 @@ body{
   }
 }
 
+.modal-content {
+  .modal-header {
+    background: $background-dark;
+    color: floralwhite;
+    button{
+      color: floralwhite;
+    }
+  }
+  .modal-body {
+    background: $background-pale;    
+  }
+}
+
 #carouselButton {
   right:0px;
   position: absolute;
   bottom: 0px;
   z-index: 1;
+}
+
+#radio-button{
+  margin: 0px 10px 0px 10px;
+}
+
+#radio-first{
+  margin: 0px 10px 0px 0px;
+}
+
+dt, dd{
+  margin: 15px 0px 15px 0px;
+}
+
+#btn {
+  margin: 0px 0px 0px 15px;
 }
